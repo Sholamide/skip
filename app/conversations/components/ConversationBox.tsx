@@ -60,7 +60,7 @@ const ConversationBox: React.FC<ConversationItemProps> = ({
     }
 
     return "Started a conversation";
-  }, []);
+  }, [lastMessage]);
 
   return (
     <div
