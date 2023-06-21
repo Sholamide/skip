@@ -16,6 +16,7 @@ import { find } from "lodash";
 interface ConversationsListProps {
   initialItems: FullConversationType[];
   users: User[];
+  title?:string
 }
 
 const ConversationsList: React.FC<ConversationsListProps> = ({
