@@ -13,7 +13,7 @@ export default function Home() {
           className="mx-auto w-auto"
         />
         <h2 className="mt-6 text-center text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900">
-          Sign in to your account to meet other skippers
+          Sign in to your account to meet other chatters
         </h2>
       </div>
       <AuthForm />

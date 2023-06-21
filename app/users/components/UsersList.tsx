@@ -24,7 +24,7 @@ const UsersList: React.FC<usersListProps> = ({ users }) => {
       <div className="px-4">
         <div className="flex flex-col">
           <div className="text-2xl font-bold text-neutral-800 py-4">
-            Skippers
+            Chatters
           </div>
         </div>
         {users.map((user) => (
